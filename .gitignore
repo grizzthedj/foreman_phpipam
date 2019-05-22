@@ -13,3 +13,5 @@ locale/*/*.pox
 config/settings.yaml
 
 rename.rb
+
+*.gem
