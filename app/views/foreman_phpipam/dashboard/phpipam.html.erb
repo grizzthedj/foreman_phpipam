@@ -56,8 +56,10 @@
     `;
 
     subnets.forEach(function(item) {
+      console.log("SUBNET")
+      console.log(item)
       subnet_container.innerHTML += `
-        <div class='col-md-2'>` + item['subnet'] + `</div>
+        <div class='col-md-2'>` + item['subnet'] + `/` + item['mask'] + `</div>
         <div class='col-md-6'>` + item['description'] + `</div><br />
       `;
     });

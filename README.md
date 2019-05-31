@@ -61,9 +61,11 @@ bundle exec smart-proxy start
 
 ## TODO
 
-- Put back IP address(es) in phpIPAM when hosts or host interfaces are deleted.
-- On subnet creation, check if subnet exists in phpIPAM first. If not, return error recommending `Suggest New`(not implemented yet).
-- More functionality on phpIPAM Dashboard page(e.g. Create subnet)
+- Support for ip ranges
+- Sync VLAN ID with phpIPAM
+- More functionality on phpIPAM Dashboard page
+    * Create a subnet
+    * List ips within a subnet
 
 ## Contributing
 
