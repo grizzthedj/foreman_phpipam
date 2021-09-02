@@ -13,7 +13,7 @@ GEM
       ast (~> 2.4.0)
     psych (3.1.0)
     rainbow (3.0.0)
-    rdoc (6.1.1)
+    rdoc (6.3.2)
     rubocop (0.67.2)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
@@ -30,8 +30,8 @@ PLATFORMS
 
 DEPENDENCIES
   foreman_phpipam!
-  rdoc
-  rubocop
+  rdoc (~> 6)
+  rubocop (~> 0)
 
 BUNDLED WITH
    2.0.1
